@@ -1,0 +1,26 @@
+{
+    "name": "mustaphaibnel/generator",
+    "description": "generate crud",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mustaphaibnel",
+            "email": "mustaphaibnel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MustaphaIbnel\\Generator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MustaphaIbnel\\Generator\\GeneratorServiceProvider"
+            ]
+        }
+    }
+}
